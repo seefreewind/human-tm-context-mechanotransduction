@@ -1,0 +1,10 @@
+model	signature_n	target	celltype	median_delta_score	positive_fraction	n_donors	external_mean_signed_statistic	external_rank_z	external_empirical_p	status	notes
+M1_TGFb2_derived_tested_in_DEX	100	GSE301517	EXTERNAL	NA	NA	NA	-0.3466309266791661	-3.1841869106755283	0.007984031936127744	FLAG	TGFb2-only signature in DEX
+M2_DEX_derived_tested_in_TGFb2	100	GSE202372	EXTERNAL	NA	NA	NA	-1.9250778166756777	-1.8540394473333828	0.07584830339321358	FLAG	DEX-only signature in TGFb2
+M3_consensus_excluding_disease_tested_in_GSE263230	100	GSE263230	EXTERNAL	NA	NA	NA	0.22407274212250625	7.698509431508608	0.001996007984031936	PASS	consensus excluding disease; descriptive disease context
+M4_TGFb2_only_applied_to_GSE313736	100	GSE313736	BeamA	0.01917053759098053	0.576271186440678	59	NA	NA	NA	FLAG	TGFb2-only primary application
+M4_TGFb2_only_applied_to_GSE313736	100	GSE313736	JCT	-0.03998394310474396	0.4576271186440678	59	NA	NA	NA	FLAG	TGFb2-only primary application
+M4_TGFb2_only_applied_to_GSE313736	100	GSE313736	Schlemm_Endothelium	-0.05399706959724426	0.4406779661016949	59	NA	NA	NA	FLAG	TGFb2-only primary application
+M5_DEX_only_applied_to_GSE313736	100	GSE313736	BeamA	1.0246797800064087	1.0	59	NA	NA	NA	PASS	DEX-only primary application
+M5_DEX_only_applied_to_GSE313736	100	GSE313736	JCT	0.964614987373352	1.0	59	NA	NA	NA	PASS	DEX-only primary application
+M5_DEX_only_applied_to_GSE313736	100	GSE313736	Schlemm_Endothelium	0.6874186992645264	1.0	59	NA	NA	NA	PASS	DEX-only primary application

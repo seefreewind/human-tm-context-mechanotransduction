@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use the code or derived tables, please cite this repository and the source datasets listed in config/dataset_registry.tsv."
+title: "Context-dependent mechanotransduction programs in human trabecular meshwork"
+type: software
+version: 0.1.0
+date-released: 2026-09-27
+repository-code: "https://github.com/seefreewind/human-tm-context-mechanotransduction"
+authors:
+  - family-names: Xu
+    given-names: Sisi
+    affiliation: "The First Affiliated Hospital of Wenzhou Medical University"
+  - family-names: Zhang
+    given-names: Yu
+    affiliation: "The Second Affiliated Hospital of Wenzhou Medical University"
+  - family-names: Zeng
+    given-names: Tiantian
+    affiliation: "The First Affiliated Hospital of Wenzhou Medical University"
+  - family-names: Liu
+    given-names: Jiechen
+    affiliation: "The First Affiliated Hospital of Wenzhou Medical University"
+  - family-names: Qiu
+    given-names: Ling
+    affiliation: "The First Affiliated Hospital of Wenzhou Medical University"
+    orcid: "https://orcid.org/0009-0007-3662-5124"

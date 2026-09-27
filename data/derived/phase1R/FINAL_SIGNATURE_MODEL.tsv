@@ -1,0 +1,6 @@
+component	representation	source	locked_gene_set	gene_n_reference	status
+adaptive	PATHWAY_MODULE	GSE195756	results/phase1/ADAPTIVE_SIGNATURE.tsv	100	PATHWAY_OR_PROGRAM_SCOPE_LOCKED
+maladaptive	PATHWAY_MODULE	GSE202372+GSE301517; GSE263230 contextual only	results/phase1/MALADAPTIVE_CORE.tsv	100	PATHWAY_OR_PROGRAM_SCOPE_LOCKED
+adaptive_module_panel	PATHWAY_MODULE	pre-specified GO/Reactome/Hallmark-aligned modules	results/phase1R/PATHWAY_ROBUSTNESS.tsv	NA	DESCRIPTIVE_REGULATORY_ANCHOR_ONLY
+maladaptive_module_panel	PATHWAY_MODULE	pre-specified GO/Reactome/Hallmark-aligned modules	results/phase1R/PATHWAY_ROBUSTNESS.tsv	NA	DESCRIPTIVE_REGULATORY_ANCHOR_ONLY
+terminology	context-dependent mechanotransduction pathway modules	Phase 1R scope decision	reports/phase1R/PHASE1R_SIGNATURE_ROBUSTNESS_REPORT.md	NA	LOCKED

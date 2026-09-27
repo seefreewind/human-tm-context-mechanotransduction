@@ -1,0 +1,4 @@
+celltype	role	adaptive_median_delta	adaptive_positive_fraction	maladaptive_median_delta	maladaptive_positive_fraction	MSI_median_delta	classification	interpretation
+BeamA	PRIMARY	0.1696886420249939	0.8305084745762712	0.8332727551460266	1.0	0.6635841131210327	SHARED_ACROSS_THREE	cell states remain separate; no pooled significance claim
+JCT	PRIMARY	0.08482551574707031	0.6779661016949152	0.7358202934265137	1.0	0.6509947776794434	SHARED_ACROSS_THREE	cell states remain separate; no pooled significance claim
+Schlemm_Endothelium	SECONDARY	0.026625456288456917	0.5084745762711864	0.47045913338661194	0.9830508474576272	0.443833677098155	SHARED_ACROSS_THREE	cell states remain separate; no pooled significance claim

@@ -1,0 +1,10 @@
+record_type	factor	level	sample_n	pass_n	fail_n	incomplete_n	pass_rate	audit_note	qc_imbalance
+summary	condition	CONTROL	3	0	0	3	0.0	technical QC balance only; no treatment interpretation and no sample removal	NA
+summary	condition	DEX	3	0	0	3	0.0	technical QC balance only; no treatment interpretation and no sample removal	NA
+summary	cell_line	TM62	4	0	0	4	0.0	technical QC balance only; no treatment interpretation and no sample removal	NA
+summary	cell_line	TM70	2	0	0	2	0.0	technical QC balance only; no treatment interpretation and no sample removal	NA
+summary	biological_replicate	1	4	0	0	4	0.0	technical QC balance only; no treatment interpretation and no sample removal	NA
+summary	biological_replicate	2	2	0	0	2	0.0	technical QC balance only; no treatment interpretation and no sample removal	NA
+overall	none	all	6	0	0	6	0.0	technical QC balance only	NA
+imbalance	condition	all	6	0	0	6	0.0	descriptive technical missingness/pass balance only; no treatment or cell-line interpretation	NO
+imbalance	cell_line	all	6	0	0	6	0.0	descriptive technical missingness/pass balance only; no treatment or cell-line interpretation	NO

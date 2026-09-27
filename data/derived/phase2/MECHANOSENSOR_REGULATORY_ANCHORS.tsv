@@ -1,0 +1,15 @@
+gene	module_membership	RNA_logFC	RNA_FDR	RNA_direction	ATAC_evidence	CUTTAG_evidence	HiC_evidence	regulatory_modalities_n	interpretation
+PIEZO1	M6	-0.3051862773700069	0.5997669723302042	DOWN	YES;CLOSING;OPENING;SHARED	ACTIVE;H3K27Ac;H3K4me1;H3K36me3;H3K4me1;H3K4me2;H3K4me3	PROMOTER_DIRECT	3	mechanosensor/network anchor panel; interpretation only, not discovery signature
+TRPV4	M6	-0.20611143573982105	0.7999296010416292	DOWN	NA	ACTIVE;H3K4me1;H3K27me3	LOOP_LINKED;PROMOTER_DIRECT	2	mechanosensor/network anchor panel; interpretation only, not discovery signature
+PTK2	M1	0.059781988251494056	0.8832835580123668	UP	YES;YES;CLOSING;SHARED	ACTIVE;H3K27Ac;H3K4me1;H3K27Ac;H3K36me3;H3K27me3	NA	2	mechanosensor/network anchor panel; interpretation only, not discovery signature
+ITGA9	M1	0.1354297315607076	0.8641421002299087	UP	NA		NA	0	mechanosensor/network anchor panel; interpretation only, not discovery signature
+ANGPT2	M9	0.09146121915210093	0.8894410916848259	UP	NA		NA	0	mechanosensor/network anchor panel; interpretation only, not discovery signature
+TEK	M9	-0.6175949638067029	0.7627864458831675	DOWN	YES;CLOSING;OPENING	ACTIVE;H3K27Ac;H3K4me1;H3K27Ac	PROMOTER_DIRECT	3	mechanosensor/network anchor panel; interpretation only, not discovery signature
+RHOA	M2	-0.12193647683819187	0.7554439562210015	DOWN	YES;SHARED	ACTIVE;H3K27Ac;H3K36me3;H3K4me1;H3K36me3;H3K4me1;H3K4me3	PROMOTER_DIRECT	3	mechanosensor/network anchor panel; interpretation only, not discovery signature
+ROCK1	M2	0.11622883156241759	0.691979566186532	UP	YES;CLOSING;SHARED	ACTIVE;H3K27Ac;H3K36me3;H3K4me1;H3K4me3	PROMOTER_DIRECT	3	mechanosensor/network anchor panel; interpretation only, not discovery signature
+ROCK2	M2	0.1740584486265817	0.8422856981658445	UP	YES;CLOSING;SHARED	ACTIVE;H3K4me1;H3K4me3	PROMOTER_DIRECT	3	mechanosensor/network anchor panel; interpretation only, not discovery signature
+YAP1	M5	-0.4384559030307509	0.21215618988192364	DOWN	YES;YES;CLOSING;OPENING;SHARED	ACTIVE;H3K27Ac;H3K4me1;H3K27Ac	LOOP_LINKED;PROMOTER_DIRECT	3	mechanosensor/network anchor panel; interpretation only, not discovery signature
+WWTR1	M5	-0.6222832711989179	0.07146029955045817	DOWN	YES;CLOSING;OPENING;SHARED	ACTIVE;H3K36me3;H3K4me1;H3K27Ac;H3K36me3;H3K4me1;H3K4me2;H3K4me3	LOOP_LINKED;PROMOTER_DIRECT	3	mechanosensor/network anchor panel; interpretation only, not discovery signature
+CCN2	M3;M4;M5	0.36550703891171743	0.7941456552534409	UP	NA		NA	0	mechanosensor/network anchor panel; interpretation only, not discovery signature
+TGFB2	M3;M4	-0.44992356552249824	0.6572645404208384	DOWN	YES;CLOSING;SHARED	ACTIVE;H3K4me1;H3K27Ac;H3K4me3	NA	2	mechanosensor/network anchor panel; interpretation only, not discovery signature
+FN1	M3;M4	-0.1509926788228544	0.7690165659733822	DOWN	YES;OPENING;SHARED	ACTIVE;H3K27Ac;H3K4me1;H3K27Ac;H3K36me3;H3K4me3	NA	2	mechanosensor/network anchor panel; interpretation only, not discovery signature

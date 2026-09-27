@@ -1,0 +1,10 @@
+module_id	module_name	classification	classification_rule	module_gene_n	RNA_background_gene_n	adaptive_core_n	maladaptive_core_n	DEX_rank_supported_n	TGFb2_rank_supported_n	stretch_rank_supported_n	disease_context_supported_n
+M1	focal_adhesion_integrin	CONTEXT_DEPENDENT	pre-specified ontology label locked before GSE301525 regulatory layers; external ranks are descriptive support only	14	14	0	1	1	0	0	0
+M2	actomyosin_contractility	CONTEXT_DEPENDENT	pre-specified ontology label locked before GSE301525 regulatory layers; external ranks are descriptive support only	12	12	0	0	1	0	0	0
+M3	ECM_remodeling	MECHANOPATHOLOGY_ASSOCIATED	pre-specified ontology label locked before GSE301525 regulatory layers; external ranks are descriptive support only	12	12	0	0	0	1	0	0
+M4	TGFb_pro_fibrotic	MECHANOPATHOLOGY_ASSOCIATED	pre-specified ontology label locked before GSE301525 regulatory layers; external ranks are descriptive support only	11	11	0	0	0	2	0	0
+M5	Hippo_YAP	CONTEXT_DEPENDENT	pre-specified ontology label locked before GSE301525 regulatory layers; external ranks are descriptive support only	13	12	0	0	0	0	0	0
+M6	calcium_mechanosensitive_channel	MECHANOADAPTIVE_ASSOCIATED	pre-specified ontology label locked before GSE301525 regulatory layers; external ranks are descriptive support only	20	20	0	1	0	0	0	0
+M7	oxidative_ferroptotic_stress	MECHANOPATHOLOGY_ASSOCIATED	pre-specified ontology label locked before GSE301525 regulatory layers; external ranks are descriptive support only	19	19	0	0	0	1	0	0
+M8	autophagy_proteostasis	MECHANOADAPTIVE_ASSOCIATED	pre-specified ontology label locked before GSE301525 regulatory layers; external ranks are descriptive support only	22	22	1	0	0	1	1	0
+M9	endothelial_outflow_homeostasis	MECHANOADAPTIVE_ASSOCIATED	pre-specified ontology label locked before GSE301525 regulatory layers; external ranks are descriptive support only	18	18	0	0	0	0	0	0

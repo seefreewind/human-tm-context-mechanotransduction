@@ -1,0 +1,10 @@
+celltype	metric	n_donors	B	observed_median_delta	bootstrap_median	ci95_low	ci95_high	directional_concordance	interpretation
+BeamA	Adaptive	59	2000	0.1696886420249939	0.1696886420249939	0.12452226877212524	0.2243320345878601	0.8305084745762712	donor stability of descriptive concordance; not causal DEX inference
+BeamA	Maladaptive-Core	59	2000	0.8332727551460266	0.8332727551460266	0.7910372018814087	0.9000972509384155	1.0	donor stability of descriptive concordance; not causal DEX inference
+BeamA	MSI	59	2000	0.6696512699127197	0.6696512699127197	0.6050078868865967	0.7652587890625	1.0	donor stability of descriptive concordance; not causal DEX inference
+JCT	Adaptive	59	2000	0.08482551574707031	0.08482551574707031	0.025475263595581055	0.12571783363819122	0.6779661016949152	donor stability of descriptive concordance; not causal DEX inference
+JCT	Maladaptive-Core	59	2000	0.7358202934265137	0.7358202934265137	0.6835197538137436	0.813146710395813	1.0	donor stability of descriptive concordance; not causal DEX inference
+JCT	MSI	59	2000	0.6960194706916809	0.6960194706916809	0.6104756593704224	0.7314422726631165	1.0	donor stability of descriptive concordance; not causal DEX inference
+Schlemm_Endothelium	Adaptive	59	2000	0.026625456288456917	0.026625456288456917	-0.06162550300359726	0.08911947906017303	0.5084745762711864	donor stability of descriptive concordance; not causal DEX inference
+Schlemm_Endothelium	Maladaptive-Core	59	2000	0.47045913338661194	0.47045913338661194	0.4227968752384186	0.5327919721603394	0.9830508474576272	donor stability of descriptive concordance; not causal DEX inference
+Schlemm_Endothelium	MSI	59	2000	0.43061143159866333	0.43061143159866333	0.33508288860321045	0.5532463788986206	0.9491525423728814	donor stability of descriptive concordance; not causal DEX inference

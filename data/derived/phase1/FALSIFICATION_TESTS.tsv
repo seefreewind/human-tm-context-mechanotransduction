@@ -1,0 +1,8 @@
+test	status	observed	null_or_reference	criterion	interpretation
+random_matched_set_overlap	FLAG	1.0	0.004975124378109453	empirical_p>0.05	overlap is not larger than random background under pre-specified null
+generic_stress_overlap_control	PASS	0.0	1.0	empirical_p>0.05	generic-stress overlap does not dominate the maladaptive core
+housekeeping_control	PASS	0.0	10	overlap=0	housekeeping genes are not used as mechanistic evidence
+leave_one_dataset_out	INFORMATIVE_LIMITATION	100.0	requires_at_least_two_pathological_contexts	rederive consensus after each context omission	with two usable pathological contexts, leave-one-out cannot retain a >=2-context consensus
+leave_one_pathway_out_generic_stress	PASS	100.0	20	remaining_core>=20	core is not solely explained by pre-specified generic stress genes
+remove_PIEZO1_TRPV4_sensitivity	PASS	0.9999999999999999	1.0_if_not_in_signature	association interpretation unchanged	PIEZO1/TRPV4 are treated as association channels, not signature-defining genes
+expression_matched_null_external_rank	PASS	0.0	0.7	generic-stress overlap fraction<0.70	expression-matched gene-level null is represented by external ranked-statistic controls; no same-dataset tuning

@@ -1,0 +1,132 @@
+project_name: PIEZO1/TRPV4 adaptive versus maladaptive mechanotransduction in glaucoma
+phase: phase0R
+phase_gate: phase0R_complete
+accession_query_date: 2026-09-17
+primary_accession: GSE313736
+statistical_unit: donor
+primary_design: external_signature_application_with_observational_GSE313736_context
+future_primary_de_model: donor_pseudobulk_with_paired_donor_model_where_supported
+multiple_testing: primary_hypotheses_and_exploratory_analyses_separate
+no_result_driven_threshold_tuning: true
+detectability_predefined_outlier_z_abs_gt: 4
+phase1_blocked_until: ["independent_external_source_QC", "phase1_analysis_lock_accepted"]
+forbidden_in_phase0:
+  - differential_expression
+  - PRS_association
+  - eQTL
+  - GWAS_colocalization
+  - trajectory
+  - network
+  - machine_learning
+  - downstream_biological_interpretation
+
+
+# Phase 0R lock (2026-09-17)
+phase0r_verdict: GO_PHASE1_EXTERNAL_DEX_ONLY
+primary_analysis_donors: 59
+primary_analysis_cells: 166323
+primary_cell_analysis_frame: matrix-metadata exact intersection on (library_id, barcode)
+gse313736_role: ROLE_C
+prs_provenance_status: UNRESOLVED
+prs_primary_allowed: false
+prs_dex_confirmatory_allowed: false
+treatment_pool_library_identifiability: NON_IDENTIFIABLE
+dex_causal_effect_identifiable_from_primary_data_alone: false
+dex_duration_status: UNRESOLVED
+phase1_allowed: true
+phase1_scope: external independent adaptive/maladaptive source QC and externally locked signature application only
+phase1_full_primary_allowed: false
+primary_dex_causal_effect_allowed: false
+primary_genetic_aim_allowed: false
+primary_cell_populations: [BeamA, JCT]
+secondary_cell_populations: [Schlemm_Endothelium]
+ctgf_alias: CCN2
+
+# Phase 1 lock — 2026-09-17
+phase1_verdict: GO_PHASE1_CONDITIONAL
+phase1_signature_lock: results/phase1/SIGNATURE_LOCK_MANIFEST.tsv
+phase1_adaptive_core_n: 100
+phase1_fibrotic_core_n: 100
+phase1_steroid_core_n: 100
+phase1_disease_context_core_n: 2
+phase1_maladaptive_core_n: 100
+phase1_generic_stress_dependence: LOW
+phase1_gse313736_role: ROLE_C
+phase1_statistical_unit: donor_pseudobulk_by_treatment_and_cellstate
+phase1_prs_analysis: false
+phase1_primary_dex_causal_effect: false
+phase1_stopped_before: [PRS, eQTL, GWAS_colocalization, causal_mediation, regulatory_multiomics, trajectory, network, machine_learning]
+
+# Phase 1R robustness and scope lock — 2026-09-18
+phase1r_verdict: GO_PHASE2_CONDITIONAL
+phase1r_top_n_dependence: true
+phase1r_size_robustness: FLAG
+phase1r_matched_null_specificity: FLAG
+phase1r_random_null_diagnosis: RESOLVED_NULL_MISSPECIFICATION
+phase1r_leave_one_context_out: FLAG
+phase1r_tgf_beta2_only_gse313736_concordance: false
+phase1r_dex_only_gse313736_concordance: true
+phase1r_rank_separation: PASS
+phase1r_anchor_removal: PASS
+phase1r_single_pathway_dominated: false
+phase1r_final_signature_representation: PATHWAY_MODULE
+phase1r_allowed_terminology: context-dependent_mechanotransduction_pathway_modules
+phase1r_null_sets_per_family_size: 10000
+phase1r_donor_bootstrap_B: 2000
+phase2_allowed: true
+phase2_executed_at_phase1r: false
+phase2_scope: "ORTHOGONAL_MULTIOMIC_REGULATORY_ANCHORING; same GSE301525 framework, not independent biological replication"
+phase2_preregistration: reports/phase1R/PHASE2_PREREGISTRATION.md
+
+# Phase 2 regulatory anchoring — 2026-09-18
+phase2_verdict: GO_PHASE3_CONDITIONAL
+phase2_executed: true
+phase2_scope: ORTHOGONAL_MULTIOMIC_REGULATORY_ANCHORING
+phase2_framework: GSE301525
+phase2_same_system_anchor: GSE301517
+phase2_regulatory_layers: [GSE301516_ATAC, GSE301519_CUT_TAG, GSE301522_HI_C]
+phase2_independent_replication: false
+phase2_gse301512_primary_dex_use: false
+phase2_matched_null_B: 5000
+phase2_gwas_executed: false
+phase2_eqtl_executed: false
+phase2_colocalization_executed: false
+phase2_prs_executed: false
+phase2_mr_executed: false
+phase2_allowed_claims: results/phase2/PHASE2_ALLOWED_CLAIMS.md
+
+# Phase 2R regulatory rescue audit — 2026-09-18
+phase2R_verdict: TECHNICAL_HOLD_RAW_DATA
+phase2R_diagnosis: MIXED
+phase2R_raw_reads_public_all_four: true
+phase2R_phase3_executed: false
+phase2R_cuttag_status: CUTTAG_LEVEL2_REPLICATE_AWARE
+## Phase 2R.1 selective Level-3 raw rescue — 2026-09-18
+phase2R1_verdict: TECHNICAL_HOLD_ATAC
+phase2R1_atac_gate: ATAC_GATE_TECHNICAL_FAIL
+phase2R1_cuttag_raw_executed: false
+phase2R1_rna_raw_status: RNA_RAW_REANALYSIS_NOT_REQUIRED
+phase2R1_hic_raw_status: HIC_RAW_DEFERRED
+phase2R1_phase3_gate: STOP_GENETIC_ESCALATION
+phase2R1_report: reports/phase2R1/PHASE2R1_SELECTIVE_RAW_RESCUE_REPORT.md
+## Phase 2R.2 ATAC QC closure — 2026-09-22
+phase2R2_verdict: TECHNICAL_HOLD_ATAC
+phase2R2_final_regulatory_gate: TECHNICAL_HOLD_ATAC
+phase2R2_cuttag_raw_executed: false
+phase2R2_hic_raw_executed: false
+phase2R2_phase3_gate: CLOSED
+phase2R2_report: reports/phase2R2/PHASE2R2_ATAC_QC_CLOSURE_REPORT.md
+
+# ## Phase 2R.3A input recovery and safe BAM regeneration — 2026-09-26
+# phase2R3_historical_name_bam: HISTORICAL_BAM_UNRECOVERABLE
+# phase2R3_audited_run3_fastq_fallback: AUDITED_RUN3_FASTQ_REBUILD
+# phase2R3_verdict: TECHNICALLY_UNRELIABLE_ATAC
+# phase2R3_atac_classification: TECHNICALLY_UNRELIABLE_ATAC
+# phase2R3_raw_source_status: ALIGNMENT_LOG;FINAL_BAM_ONLY;SRA;ALIGNMENT_LOG;SRA;AUDITED_FASTQ_MAP;ALIGNMENT_LOG
+# phase2R3_module_specific_regulatory_support: NO_MODULE_SPECIFIC_REGULATORY_SUPPORT
+# phase2R3_regulatory_gate: STOP_REGULATORY_ESCALATION
+# phase2R3_genetic_gate: STOP_GENETIC_ESCALATION
+# phase2R3_cuttag_raw_executed: false
+# phase2R3_hic_raw_executed: false
+# phase2R3_phase3_gate: CLOSED
+# phase2R3_report: reports/phase2R3/PHASE2R3_FINAL_ATAC_QC_REPORT.md

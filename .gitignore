@@ -1,0 +1,21 @@
+# Never add source sequencing/reference data or alignment intermediates.
+data/raw/
+data/reference/
+logs/
+*.sra
+*.bam
+*.sam
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.h5ad
+*.h5
+*.rds
+*.npz
+.env
+.env.*
+._*
+.DS_Store
+__pycache__/
+*.py[cod]

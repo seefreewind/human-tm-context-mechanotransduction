@@ -1,0 +1,8 @@
+control_set	control_n	maladaptive_core_n	overlap_n	overlap_fraction_of_core	jaccard	predefined_interpretation	dependence_category
+Apoptosis	11	100	0	0.0	0.0	generic_stress_comparator_not_mechanistic_signature	LOW
+Inflammatory_Response	10	100	0	0.0	0.0	generic_stress_comparator_not_mechanistic_signature	LOW
+ROS	12	100	0	0.0	0.0	generic_stress_comparator_not_mechanistic_signature	LOW
+Hypoxia	9	100	0	0.0	0.0	generic_stress_comparator_not_mechanistic_signature	LOW
+UPR	8	100	0	0.0	0.0	generic_stress_comparator_not_mechanistic_signature	LOW
+TNFa_NFkB	9	100	0	0.0	0.0	generic_stress_comparator_not_mechanistic_signature	LOW
+Cell_Cycle	10	100	0	0.0	0.0	generic_stress_comparator_not_mechanistic_signature	LOW

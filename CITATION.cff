@@ -5,6 +5,7 @@ type: software
 version: 0.1.0
 date-released: 2026-09-27
 repository-code: "https://github.com/seefreewind/human-tm-context-mechanotransduction"
+doi: "10.5281/zenodo.22994095"
 authors:
   - family-names: Xu
     given-names: Sisi

@@ -34,8 +34,8 @@ This release is **not yet a clean-environment, end-to-end reproduction package**
 
 ## Integrity and licensing
 
-`SHA256SUMS.txt` records checksums for the files in this release (excluding the checksum file itself). No explicit reuse license has yet been selected by the authors. The repository is publicly viewable, but public visibility alone does not grant permission to reuse or redistribute its contents. A license and Zenodo DOI will be added only after the authors resolve the applicable rights and complete Zenodo linking/release steps.
+`SHA256SUMS.txt` records checksums for the files in this release (excluding the checksum file itself). Version 1 is archived at [Zenodo](https://doi.org/10.5281/zenodo.22994095); its record declares CC BY 4.0 for the deposited archive. Source datasets are not redistributed and remain subject to their providers' terms. The version-specific DOI identifies this frozen archive; the Zenodo concept DOI ([10.5281/zenodo.22994093](https://doi.org/10.5281/zenodo.22994093)) resolves the software across versions.
 
 ## Citation
 
-See [`CITATION.cff`](CITATION.cff). No DOI has been assigned yet. Cite the original GEO studies for source data; do not cite this repository as an independent biological validation cohort.
+See [`CITATION.cff`](CITATION.cff). Cite version 1 with DOI [10.5281/zenodo.22994095](https://doi.org/10.5281/zenodo.22994095), and cite the original GEO studies for source data. Do not cite this repository as an independent biological validation cohort.
